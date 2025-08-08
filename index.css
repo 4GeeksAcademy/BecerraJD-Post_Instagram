@@ -1,0 +1,67 @@
+ body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+ }
+ 
+ .instagram-post {
+  width: 400px;
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+ }
+ 
+ .post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+ }
+ 
+ .user-info {
+  display: flex;
+  align-items: center;
+ }
+ 
+ .profile-pic {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+ }
+ 
+ .username {
+  font-weight: 700;
+ }
+
+ .post-image {
+  width: 100%;
+  display: block;
+ }
+
+ .post-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+ }
+
+ .left-actions i {
+  font-size: 22px;
+  margin-right: 10px;
+  color: #262626;
+ }
+
+ .right-actions i {
+  font-size: 22px;
+  color: #262626;
+ }
+ 
+ .post-details {
+  padding: 0 10px 10px;
+ }
